@@ -9,3 +9,9 @@ Authors@R: c(
 Description: It has 2 functions that are used to implement the Euclidian and Dijkstras Algorithms by calling euclidean() and dijkstra() respectively.
 License: GPL-3
 RoxygenNote: 7.2.3
+Depends: 
+    R (>= 2.10)
+LazyData: true
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3

@@ -20,7 +20,13 @@ function(value1,value2){
   if((is.numeric(value2)!= TRUE | is.integer(value2)!=TRUE) & length(value2)!=1){
     stop()
   }
-
+  
+  if(value1<0){
+    value1<--value1
+  }
+  if(value2<0){
+    value2<--value2
+  }
   
   if(value1>value2){
     a<-value1

@@ -25,6 +25,10 @@ dijkstra<-function(graph,init_node){
     stop()
   }
   
+  if(init_node>max(unique(graph$v1))){
+    stop()
+  }
+  
   visted<-c()
   unvisted<-unique(graph$v1)
   final<-c()
