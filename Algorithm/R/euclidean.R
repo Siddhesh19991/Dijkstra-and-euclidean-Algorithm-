@@ -1,3 +1,15 @@
+#' The Euclidean Algorithm
+#' @description
+#' the Euclidean algorithm is an efficient method for computing the greatest common divisor of two integers, the largest number that divides them both without a remainder.
+#'
+#' @param value1 A numeric scalar or integer value.
+#' @param value2 A numeric scalar or integer value.
+#'
+#' @return the greatest common divisor of two numbers i.e value1 and value2
+#' @export
+#'
+#' 
+#' @references https://en.wikipedia.org/wiki/Euclidean_algorithm
 euclidean <-
 function(value1,value2){
   

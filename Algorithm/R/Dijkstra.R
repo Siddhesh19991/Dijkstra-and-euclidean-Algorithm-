@@ -1,3 +1,20 @@
+#' The Dijkstra Algorithm
+#' 
+#' @description
+#' Dijkstra's algorithm is used to find the shortest path between the two mentioned vertices of a graph by applying the Greedy Algorithm as the basis of principle. For Example: Used to find the shortest between the destination to visit from your current location on a Google map.
+#' 
+#'
+#' @param graph It is  a data.frame with three variables (v1, v2 and w) that contains the edges of the graph (from v1 to v2) with the weight of the edge (w).
+#' @param init_node It is the starting node and is a numeric scalar value. 
+#'
+#' @return The shortest path to every other node from the starting node as a vector.
+#' @export 
+#' 
+#' @references https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
+#' @references https://www.youtube.com/watch?v=pVfj6mxhdMw&t=365s
+#'
+#'
+#'
 dijkstra<-function(graph,init_node){
   
   if(is.numeric(init_node)!=TRUE | length(init_node)!=1){

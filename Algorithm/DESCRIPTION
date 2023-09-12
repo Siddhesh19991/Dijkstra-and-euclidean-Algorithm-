@@ -3,7 +3,9 @@ Type: Package
 Title: Euclidian and Dijkstras Algorithms 
 Version: 1.0
 Date: 2023-09-09
-Authors@R: c(person("Siddhesh", "Sreedar", email = "sidsr770@studentliu.se", role = "cre"),person("Siddhesh", "Sreedar", email = "sidsr770@studentliu.se", role = "aut"))
+Authors@R: c(
+    person("Siddhesh", "Sreedar", email = "siddheshraw@gmail.com", role = "cre"),
+    person("Eva", "H", email = "jenny@posit.co", role = "aut"))
 Description: It has 2 functions that are used to implement the Euclidian and Dijkstras Algorithms by calling euclidean() and dijkstra() respectively.
 License: What license is it under?
-
+RoxygenNote: 7.2.3
