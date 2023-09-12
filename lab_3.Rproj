@@ -14,6 +14,6 @@ LaTeX: pdfLaTeX
 
 BuildType: Package
 PackageUseDevtools: Yes
-PackagePath: /Users/siddheshsreedar/Downloads/M A S T E R S /R_programming/Github_R/Lab_3/Algorithm
+PackagePath: /Users/siddheshsreedar/Downloads/M A S T E R S /R_programming/Github_R/Lab_3
 PackageInstallArgs: --no-multiarch --with-keep.source
 PackageRoxygenize: rd,collate,namespace
