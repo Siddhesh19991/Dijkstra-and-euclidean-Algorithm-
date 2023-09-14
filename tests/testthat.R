@@ -10,3 +10,10 @@ library(testthat)
 library(Algorithm)
 
 test_check("Algorithm")
+test_that("Product of algorithm is not negative")
+#passes, basic check
+expect_that(a>=0, is_true())
+#passes, another basic check for Dijkstra
+expect_that(w>=0, is_true())
+#Not yet passes, potentially needs a warning for not to have negative divisors
+expect_that(a<=0, gives_warning())
