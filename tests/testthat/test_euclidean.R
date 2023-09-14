@@ -6,6 +6,11 @@ test_that("GDC is calculated correctly.", {
   expect_equal(euclidean(-100, 1000), 100)
 })
 
+test_that("neither divisor is less than 0", {
+  expect_that(a>=0, is_true())
+  expect_that(b>=0, is_true()) 
+  })
+
 
 test_that("Wrong input throws an error.", {
   expect_error(euclidean("100", 1000))  
