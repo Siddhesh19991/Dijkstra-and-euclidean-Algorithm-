@@ -66,7 +66,7 @@ dijkstra<-function(graph,init_node){
     
     primary<-graph[graph[1]==ongoing,c(2,3)]
     primary<-subset(primary,!(v2 %in% visted))
-    neighbors<-primary$v2
+    neighbors<-primary[["v2"]]
     weight<-primary$w
     
     j<-1
